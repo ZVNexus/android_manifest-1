@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- General -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="twrp" revision="p9x-twrp" />
+  <project path="manifest" name="du_manifest" remote="twrp" revision="p9x-twrp" />
+
+<!-- Include external Magisk repo for repack binaries -->
+  <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="twrp" revision="master" />
+
+</manifest>
